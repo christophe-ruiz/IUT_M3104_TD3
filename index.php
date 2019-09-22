@@ -5,6 +5,9 @@
 
     $pageLogin = 'login.php?step=LOGIN';
     $titLogin = 'LOGIN';
+
+    $pageLire = 'lire-enregistrements.php';
+    $titLire = 'Lire data.txt';
 ?>
 <?php start_page('TD3'); ?>
 <div style="width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
@@ -33,6 +36,7 @@
     <div style = "height: 1%;"></div>
     <a href="<?= $pageBD?>"><button><?= $titBD?></button></a>
     <a href="<?= $pageLogin?>"><button><?= $titLogin?></button></a>
+    <a href="<?= $pageLire?>"><button><?= $titLire?></button></a>
 </div>
 
 <?php end_page(); ?>

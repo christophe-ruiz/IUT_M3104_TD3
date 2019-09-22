@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b540f74e-529f-446d-91e4-8ef9c461fbfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lire-enregistrements.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-processing.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-processing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569171606643</updated>
-      <workItem from="1569171607835" duration="3646000" />
+      <workItem from="1569171607835" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="Copie TD2">
       <created>1569171753015</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569179514094</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lecture du fichier">
+      <created>1569180190540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569180190540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +163,7 @@
     <MESSAGE value="Bouton submit déplacé" />
     <MESSAGE value="Titre du bouton" />
     <MESSAGE value="Ecriture dans le fichier data.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ecriture dans le fichier data.txt" />
+    <MESSAGE value="Lecture du fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture du fichier" />
   </component>
 </project>
