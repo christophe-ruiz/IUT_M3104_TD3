@@ -28,7 +28,7 @@
         <input type="checkbox" id="cgu" name="cgu">
         <label for="cgu">J'accepte les Conditions Générales d'Utilisation</label>
         <input name="action" type="submit" value="Mailer">
-        <button type="submit" name="action" value="REC"/>
+        <button title="Enregistrer dans data.txt" type="submit" name="action" value="REC"/>
     </form>
     <div style = "height: 1%;"></div>
     <a href="<?= $pageBD?>"><button><?= $titBD?></button></a>
