@@ -28,7 +28,7 @@
             echo 'Erreur d\'ouverture';
             exit();
         }
-        fputs($file, 'id : ' . $id . 'email : ' . $email . PHP_EOL);
+        fputs($file, 'id : ' . $id . ', email : ' . $email . PHP_EOL);
         fclose($file);
     } else {
         echo '<br/><strong>Bouton non géré !</strong><br/>';
