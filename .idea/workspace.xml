@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b540f74e-529f-446d-91e4-8ef9c461fbfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/utils.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-processing.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-processing.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RCWYbVPQZXnov2OnKdnxeDV3LF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569171606643</updated>
-      <workItem from="1569171607835" duration="1322000" />
+      <workItem from="1569171607835" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="Copie TD2">
       <created>1569171753015</created>
@@ -78,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569172875640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Titre en variable PHP">
+      <created>1569172937150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569172937150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

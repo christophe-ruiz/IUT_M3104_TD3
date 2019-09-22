@@ -49,4 +49,5 @@
     }
 ?>
 <br>
+<button type="submit" name="action" value="REC"/>
 <a href=".."><button>Retour</button></a>
