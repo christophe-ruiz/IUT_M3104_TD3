@@ -20,7 +20,16 @@
         echo $message;
 
     } else if ($action == 'REC') {
+        $id = $_POST['id'];
+        $email = $_POST['mail'];
 
+        $file = 'data.txt';
+        if (!($file = fopen($file, 'a+'))) {
+            echo 'Erreur d\'ouverture';
+            exit();
+        }
+        fputs($file, 'id : ' . $id . 'email : ' . $email . PHP_EOL);
+        fclose($file);
     } else {
         echo '<br/><strong>Bouton non géré !</strong><br/>';
     }
