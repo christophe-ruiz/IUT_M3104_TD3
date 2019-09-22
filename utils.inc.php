@@ -6,7 +6,7 @@
              '<head>
                     <title>' . $title . '</title>
                   </head>
-                  <body style="height: 100%;">' . PHP_EOL;
+                  <body style="height: 100%; margin: 0;">' . PHP_EOL;
     };
     function end_page (){
         echo '</body>
