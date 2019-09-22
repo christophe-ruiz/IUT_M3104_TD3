@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b540f74e-529f-446d-91e4-8ef9c461fbfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-processing.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-processing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569171606643</updated>
-      <workItem from="1569171607835" duration="1532000" />
+      <workItem from="1569171607835" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Copie TD2">
       <created>1569171753015</created>
@@ -90,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569172937150</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bouton enregistrement formulaire">
+      <created>1569178083835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569178083835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Copie TD2" />
     <MESSAGE value="Titre en variable PHP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Titre en variable PHP" />
+    <MESSAGE value="Bouton enregistrement formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bouton enregistrement formulaire" />
   </component>
 </project>
