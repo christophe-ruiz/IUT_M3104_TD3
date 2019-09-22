@@ -19,6 +19,8 @@
 
         echo $message;
 
+    } else if ($action == 'REC') {
+
     } else {
         echo '<br/><strong>Bouton non géré !</strong><br/>';
     }
@@ -49,5 +51,4 @@
     }
 ?>
 <br>
-<button type="submit" name="action" value="REC"/>
 <a href=".."><button>Retour</button></a>
