@@ -1,5 +1,10 @@
 <?php
     include 'utils.inc.php';
+    $pageBD = 'base.php';
+    $titBD = 'Lire la BD';
+
+    $pageLogin = 'login.php?step=LOGIN';
+    $titLogin = 'LOGIN';
 ?>
 <?php start_page('TD2'); ?>
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width = 100%; height = 100%;">
@@ -25,8 +30,8 @@
         <input name="action" type="submit" value="Mailer">
     </form>
     <div style = "height: 1%;"></div>
-    <a href="base.php"><button>Lire la BD</button></a>
-    <a href="login.php?step=LOGIN"><button>LOGIN</button></a>
+    <a href="<?= $pageBD?>"><button><?= $titBD?></button></a>
+    <a href="<?= $pageLogin?>"><button><?= $titLogin?></button></a>
 </div>
 
 <?php end_page(); ?>
