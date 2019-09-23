@@ -45,7 +45,7 @@
 
     $today = date('Y-m-d');
     $query = 'INSERT INTO user (login, sexe, email, password, phone, pays, date)';
-    $query .= " VALUES ('. $id .',  '. $sexe .', '. $email .', '. $pwd .', '. $phone .', '. $pays .', NOW());";
+    $query .= " VALUES ('$id',  '$sexe', '$email', '$pwd', '$phone', '$pays', NOW());";
 
     if(!($dbResult = mysqli_query($dbLink, $query)))
     {
