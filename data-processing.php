@@ -18,6 +18,9 @@
         $message .= 'Pays : ' . $pays . PHP_EOL;
 
         echo $message;
+        if (mail('christophe.ruiz@etu.univ-amu.fr', 'mail du TD3', $message))
+            echo 'Mail envoyé !';
+        else echo 'Mail non envoyé :(';
 
     } else if ($action == 'REC') {
         $id = $_POST['id'];
@@ -33,9 +36,6 @@
     } else {
         echo '<br/><strong>Bouton non géré !</strong><br/>';
     }
-    if (mail('christophe.ruiz@etu.univ-amu.fr', 'mail du TD2', $message))
-        echo 'Mail envoyé !';
-    else echo 'Mail non envoyé :(';
 
     $dbLink = mysqli_connect('mysql-christophe.alwaysdata.net', '173824', 'admin_root26+')
     or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
