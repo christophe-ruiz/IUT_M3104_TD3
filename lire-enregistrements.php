@@ -8,8 +8,12 @@
         exit();
     }
     echo 'Liste des utilisateurs : <br>';
-    for ($cpt = 1; $line = fgets($file, 255); ++$cpt)
-        echo 'Utilisateur n°' . $cpt . ' : ' . $line . '<br>';
+    $cpt = 1;
+    while($line = fgets($file, 255))
+    {
+        echo 'Utilisateur n ' . $cpt . ' : ' . $line . '<br/>';
+        ++$cpt;
+    }
     fclose($file);
 
     end_page();

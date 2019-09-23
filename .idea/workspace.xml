@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b540f74e-529f-446d-91e4-8ef9c461fbfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-pass.php" beforeDir="false" afterPath="$PROJECT_DIR$/test-pass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lire-enregistrements.php" beforeDir="false" afterPath="$PROJECT_DIR$/lire-enregistrements.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569171606643</updated>
       <workItem from="1569171607835" duration="4124000" />
-      <workItem from="1569252482097" duration="2454000" />
+      <workItem from="1569252482097" duration="2765000" />
     </task>
     <task id="LOCAL-00001" summary="Copie TD2">
       <created>1569171753015</created>
@@ -168,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569254350735</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="page admin">
+      <created>1569254949764</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569254949764</updated>
+    </task>
+    <task id="LOCAL-00018" summary="page admin">
+      <created>1569255167647</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569255167647</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +210,7 @@
     <MESSAGE value="Ecriture dans le fichier data.txt" />
     <MESSAGE value="Lecture du fichier" />
     <MESSAGE value="Nombre de connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nombre de connections" />
+    <MESSAGE value="page admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="page admin" />
   </component>
 </project>
