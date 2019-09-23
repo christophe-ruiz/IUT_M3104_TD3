@@ -40,9 +40,13 @@
         header('Location: login.php?step=ERREUR');
     }
     if ($_SESSION['login'] == 'ok') {
-        start_page('Bienvenue');
-        echo '<h1> Bienvenue ' . $_SESSION['id'] . '</h1>' . PHP_EOL;
-        end_page();
+        if ($login == 'admin')
+            header('Location: admin.php');
+        else {
+            start_page('Bienvenue');
+            echo '<h1> Bienvenue ' . $_SESSION['id'] . '</h1>' . PHP_EOL;
+            end_page();
+        }
     } else {
         header('Location: login.php?step=ERREUR');
     }
