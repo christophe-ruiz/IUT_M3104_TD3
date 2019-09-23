@@ -24,7 +24,13 @@
 
     } else if ($action == 'REC') {
         $id = $_POST['id'];
+        $sexe = $_POST['sexe'];
         $email = $_POST['mail'];
+        $pwd = $_POST['pwd'];
+        $verifPwd = $_POST['verifPwd'];
+        $phone = $_POST['phone'];
+        $pays = $_POST['pays'];
+        $cgu = $_POST['cgu'];
 
         $file = 'data.txt';
         if (!($file = fopen($file, 'a+'))) {
